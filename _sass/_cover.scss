@@ -1,0 +1,85 @@
+.cover {
+  font-family: $font-family;
+
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+  
+  color: #fff;
+
+  .btn {
+    color: #ccc;
+    background-color: rgba(0,0,0,0.5);
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    &:focus, &:hover {
+      background-color: rgba(0,0,0,.4);
+      color: #eee;
+    }
+  }
+
+  > section {
+
+    position: relative;
+    display: flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+    
+    -webkit-box-orient: vertical;
+    
+    flex-direction: column;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+    
+    justify-content: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+
+    align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+
+    box-sizing: border-box;
+
+    min-height: 100vh;
+    padding: 50px 0;
+    
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+
+    > img {
+      width: 100%; // so it always fills the available space
+      max-width: 310px; // but only until this width
+      margin-bottom: 3em;
+    }
+
+    p {
+      font-size: 1.4em;
+    }
+  }
+  
+  > footer {
+    padding: 20px 0px;
+    font-size: .9em;
+
+    a {
+      color: #ccc;
+      font-weight: bold;
+
+      &:hover {
+        color: #eee;
+        text-decoration: underline;
+      }
+    }
+
+    // On larger screens we want to make it sticky
+    @media only screen and (min-height: 675px) {
+      position: absolute;
+      left: 50%;
+      bottom: 0px;
+      -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+  }
+}

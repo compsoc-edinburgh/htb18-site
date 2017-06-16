@@ -1,0 +1,63 @@
+---
+---
+
+$font-family: "Raleway",Helvetica,Arial,sans-serif
+
+html, body
+    height: 100%
+
+body
+    display: flex
+    min-height: 100vh
+    flex-direction: column
+
+@import "cover"
+
+.main-content
+    flex: 1 0 auto
+
+    h1, h2, h3, h4, h5
+        font-family: $font-family
+    .section h4
+        margin-top: 0
+
+    &> .row
+        margin-top: 0
+        margin-bottom: 0
+
+a.anchor
+    display: block
+    position: relative
+    top: -64px
+    visibility: hidden
+
+.parallax-container
+    height: auto
+	
+.grey-color
+    background-color: rgba(0, 0, 0, 0.4)
+// This code is borrowed from the example,
+// is this necessary?
+// @media only screen and (max-width: 992px)
+//     .parallax-container .section
+//         position: absolute
+//         top: 40%
+//     #index-banner .section
+//         top: 10%
+
+#mce-EMAIL
+    color: #343434
+    font: 14px Helvetica,Arial,sans-serif
+    font-size: 15px
+    border: 1px solid #ABB0B2
+    -webkit-border-radius: 3px
+    -moz-border-radius: 3px
+    border-radius: 3px
+    background-color: #fff
+    box-sizing: border-box
+    height: 32px
+    width: 350px
+    vertical-align: top
+    text-align: center
+    display: block
+    margin: 15px auto
