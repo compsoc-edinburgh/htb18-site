@@ -11,7 +11,26 @@ body
     min-height: 100vh
     flex-direction: column
 
+// Background pattern from Subtle Patterns: "sayagata"
+.subtle-sayagata
+    background-image: url(../img/sayagata-400px.png)
+    background-repeat: repeat
+
+// Background pattern from Subtle Patterns: "subtle grey"
+.subtle-grey
+    background-image: url(../img/grey.png)
+    background-repeat: repeat
+
+// Background pattern from Subtle Patterns: "seigaiha"
+.seigaiha
+    background-image: url(../img/seigaiha.png)
+    background-repeat: repeat
+
 @import "cover"
+@import "footer"
+
+.section
+    padding-top: 50px
 
 .main-content
     flex: 1 0 auto
@@ -44,6 +63,17 @@ a.anchor
 //         top: 40%
 //     #index-banner .section
 //         top: 10%
+
+#faq-section .material-icons
+    font-size: inherit
+
+#location-section
+    iframe
+        width: 100% !important
+        // height: 100% !important
+        
+        // Develop indicator below (no internet)
+        // background: rgba(0,255,255,0.1)
 
 #mce-EMAIL
     color: #343434
