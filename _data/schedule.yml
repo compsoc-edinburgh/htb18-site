@@ -1,0 +1,150 @@
+- title: Registration
+  subtitle: Saturday 09:30
+  icon: globe
+  time: 0
+  content: "Bring your student ID, proof of age and your e-ticket."
+
+- title: Opening ceremony
+  subtitle: Saturday 11:00
+  icon: microphone
+  time: 0
+  content: Held at George Square Lecture Theatre — follow the volunteers! A word from organisers, some house rules, sponsor introductions and all hacktastic things.
+
+- title: Hacking starts
+  subtitle: Saturday 12:00
+  icon: code
+  time: 0
+  content: Let the fun begin. You may go and talk to our sponsors about their challenges or think of things you can do!
+
+- title: Lunch
+  subtitle: Saturday 12:00
+  icon: cutlery
+  time: 0
+  content: Served outside the Forum.
+
+# ARM Talk
+- title: Git Workshop
+  subtitle: Saturday 13:30-14:00
+  icon: microphone
+  time: 0
+  content: "Location TBC. Learn the basics of a hackathon essential."
+
+# Google Talk
+- title: Machine Learning in the Cloud
+  subtitle: Saturday 14:00-14:30
+  icon: microphone
+  time: 0
+  content: "A talk by Google."
+
+# Google talk
+- title: Coding Interview Workshop
+  subtitle: Saturday 14:30-15:00
+  icon: microphone
+  time: 0
+  content: Join Google for a workshop going through a technical coding interview!
+
+# Bloomberg Talk
+- title: "How the Software Industry is changing - it pays to be different"
+  subtitle: Saturday 15:00-16:00
+  icon: microphone
+  time: 0
+  content: "Software is not a one solution fits all problems, why should software engineers? Talk with three Bloomberg engineers from very different backgrounds about the shift in the industry culture towards inclusion."
+
+# Morgan Stanley Talk
+- title: Introduction to REST microservices
+  subtitle: Saturday 16:00-17:00
+  icon: microphone
+  time: 0
+  content: "An introduction to REST microservices using Python and Flask, by Neil O'Connor from Morgan Stanley."
+
+- title: Code Golf minigame
+  subtitle: Saturday 17:15-17:45
+  icon: code
+  time: 0
+  content: Write a simple program to complete the given task in any language you like - the shortest correct code wins!
+
+- title: Dinner
+  subtitle: Saturday 18:00
+  icon: cutlery
+  time: 1489860000000
+  content:
+
+# MLH event
+- title: Lights out!
+  subtitle: Saturday 19:30
+  icon: code
+  time: 1489863600000
+  content: Do the MLH Code in the dark challenge!
+
+- title: MLH mini-event
+  subtitle: Saturday 20:00
+  icon: code
+  time: 1489867200000
+  content:
+
+# GitHub Talk
+- title: Git workshop
+  subtitle: Saturday 20:00
+  icon: code
+  time: 1489863600000
+  content: Learn Git! It is an irreplacable tool for group projects.
+  
+- title: Midnight Pizza
+  subtitle: Saturday 23:00
+  icon: cutlery
+  time: 1489878000000
+  content: Come snack on some delicious pizza to keep you going!
+
+- title: Werewolf!
+  subtitle: Sunday 00:00
+  icon: paw
+  time: 1489881600000
+  content:
+
+- title: Breakfast
+  subtitle: Sunday 09:30
+  icon: cutlery
+  time: 1489915800000
+  content:
+
+- title: Project submission
+  subtitle: Sunday 11:00-12:00
+  icon: paper-plane
+  time: 1489921200000
+  content: Submit your hack on <a href="https://hacktheburgh2017.devpost.com">Devpost</a>!
+  
+- title: Reimbursement desk
+  subtitle: Sunday 11:30-12:00
+  icon: gbp
+  time: 1489923000000
+  content: Come see us at the volunteer desk and we will arrange your travel reimbursements.
+
+- title: Hacking ends
+  subtitle: Sunday 12:30
+  icon: hand-paper-o
+  time: 1489924800000
+  content: Make sure you submit your project on DevPost by this time. Get ready to present your work to the judges. Awesome prizes await!
+
+- title: Lunch
+  subtitle: Sunday 13:00
+  icon: cutlery
+  time: 1489928400000
+  content: Hands up for Bloomberg for the lunch and the amazing additions they brought to the event!
+
+- title: Presentation time
+  subtitle: Sunday 14:00
+  icon: play
+  time: 1489932000000
+  content: Time to show off what you have done.
+
+- title: Award ceremony
+  subtitle: Sunday 16:00
+  icon: trophy
+  time: 1489939200000
+  content: Find out who hacked their way through the weekend and made the coolest hacks.
+
+- title: Hackathon ends
+  subtitle: Sunday 17:00
+  icon: hand-o-right
+  time: 1489942800000
+  content: Last good byes and kisses before you leave Hack the Burgh. We hope to see you next year!

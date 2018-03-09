@@ -1,0 +1,50 @@
+
+- title: BlackRock
+  slackID: C4KNELM50
+  slackName: blackrock
+  description: "Take a job, and make it automated. Join #sponsor-blackrock to discuss the challenge."
+
+- title: Morgan Stanley
+  slackID: C4KR1F9RT
+  slackName: morganstanley
+  description: "Make a game from a given constraint and theme. Join #sponsor-morganstanley to discuss the challenge."
+
+- title: ARM
+  slackID: C4K1MHFGQ
+  slackName: arm
+  description: "Use a microbit for your project. Join #sponsor-arm to discuss the challenge."
+
+- title: "Bloomberg: Hack the Safe"
+  slackID: C4KPJR0BE
+  slackName: bloomberg
+  description: "Hack the Safe escape room (upstairs)"
+
+- title: "Bloomberg: HackerRank"
+  slackID: C4KPJR0BE
+  slackName: bloomberg
+  description: '<a href="http://hr.gs/hacktheburgh2017">Start the HackerRank challenge</a>.'
+
+- title: "Bloomberg: Hack with a Manifesto"
+  slackID: C4KPJR0BE
+  slackName: bloomberg
+  description: "Join #sponsor-bloomberg to discuss the challenge."
+
+- title: AIGaming
+  slackID: C4LDCS7U7
+  slackName: aigaming
+  description: "Create the highest scoring bot over the weekend. Join #sponsor-aigaming to discuss the challenge. Pick up a pack from the AIgaming table to get started."
+
+
+- title: Major League Hacking
+  slackID: C4M13EDN3
+  slackName: mlh
+  description: "Hack Harrassment: Software solution to reduce online harassment. Join #sponsor-mlh to discuss the challenge. Winners receive power banks."
+  
+- title: Amazon Web Services
+  description: The best hack using Amazon Web Services wins $30 Amazon credit per person.
+
+# - title: Hardware Lab
+#   description: "Hardware lab (hardware.mlh.io)"
+
+- title: Domain.com
+  description: "The best domain wins $30 Domain.com credit."
