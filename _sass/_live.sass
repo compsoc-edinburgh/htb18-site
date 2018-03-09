@@ -1,0 +1,51 @@
+#live
+	.tabs .indicator
+		background-color: red
+
+	.main-content
+		width: 100%
+		height: calc(100% - 48px)
+		position: absolute
+		top: 48px
+
+		&> div:not(#stream)
+			margin-top: 48px
+
+	#particles
+		height: calc(100% - 48px)
+		width: 100%
+		padding-top: 48px
+		margin: 0
+		canvas
+			position: fixed
+	
+	#stream
+		height: 100%
+		display: flex
+		flex-flow: column
+
+		// > div
+		// 	border: 1px dotted grey
+		
+		.content
+			flex: 0 1 auto
+
+		#announce
+			flex: 1 1 auto
+
+		.footer, #social-cards
+			flex: 0 1 40px
+
+		.card-title
+			font-weight: 700
+			text-shadow: 0 1px 3px rgba(0, 0, 0, .5)
+
+	#challenges
+		a
+			color: inherit
+			text-decoration: underline
+
+		.card-title > a
+			text-decoration: italic
+			font-size: 18px
+			float: right

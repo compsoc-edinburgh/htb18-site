@@ -1,0 +1,49 @@
+---
+permalink: /live/
+navigation:
+#    - text: Stream
+#      id: "stream"
+#      url: "live/stream.html"
+    - text: Schedule
+      id: "schedule"
+      url: "live/schedule.html"
+    - text: Challenges
+      id: "challenges"
+      url: "live/challenges.html"
+    - text: Information
+      id: "info"
+      url: "live/info.html"
+---
+<!DOCTYPE html>
+<!-- 2018 -->
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+
+    {% include head.html %}
+
+    <body id="live" class="teal lighten-1">
+
+        <nav class="nav-extended teal">
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent tabs-fixed-width">
+                {% for item in page.navigation %}
+                    <li class="tab"><a href="#{{ item.id }}">{{ item.text }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+        </nav>
+
+        <div id="particles">
+            <main class="main-content">
+                {% for item in page.navigation %}
+                    <div id="{{ item.id }}" class="col s12">{% include {{ item.url }} %}</div>
+                {% endfor %}
+            </main>
+        </div>
+
+        {% include scripts.html %}
+        
+        <script src="{{ site.baseurl }}/static/js/jquery.particleground.min.js"></script>
+        <script src="{{ site.baseurl }}/static/js/live.js?time='{{ site.time }}'"></script>
+    </body>
+
+</html>
