@@ -146,9 +146,9 @@ $(document).ready(function(){
     checkMouseMove();
 
     var clock = $('#countdown');
-    updateDeadline('March 18 2017 11:00:00 GMT+0000', "until opening ceremony!");
+    // updateDeadline('March 18 2017 11:00:00 GMT+0000', "until opening ceremony!");
     // updateDeadline('March 18 2017 12:00:00 GMT+0000', "until hacking begins!");
-    updateDeadline('March 19 2017 12:30:00 GMT+0000', "until hacking ends!");
+    updateDeadline('March 11 2018 12:00:00 GMT+0000', "until hacking ends!");
 
     updateClock(clock); // run function once at first to avoid delay
     var timeinterval = setInterval(updateClock,1000, clock)
