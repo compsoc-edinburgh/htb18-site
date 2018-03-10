@@ -2,17 +2,17 @@
 ---
 var timer;
 function checkMouseMove() {
-    if (timer) {
-        clearTimeout(timer);
-        timer = 0;
-    }
+    // if (timer) {
+    //     clearTimeout(timer);
+    //     timer = 0;
+    // }
 
-    $('nav').fadeIn();
+    // $('nav').fadeIn();
 
-    if (window.location.hash == "#stream") {
-        timer = setTimeout(function() {
-            $('nav').fadeOut()
-        }, 3000)
+    // if (window.location.hash == "#stream") {
+    //     timer = setTimeout(function() {
+    //         $('nav').fadeOut()
+    //     }, 3000)
     }
 }
 
@@ -142,7 +142,7 @@ $(document).ready(function(){
         parallaxMultiplier: 15,
     });
 
-    $(document).mousemove(checkMouseMove);
+    // $(document).mousemove(checkMouseMove);
     checkMouseMove();
 
     var clock = $('#countdown');
