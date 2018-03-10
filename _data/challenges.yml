@@ -1,35 +1,38 @@
 
+- title: Hack the Burgh
+  description: Best 3 projects overall. Prizes include drones for first place, Anker speakers for second, flying kites for third. 
+
 - title: Arm
   slackID: C9LJ8LN20
   slackName: arm
-  description: Coming soon...
+  description: Do something exciting with Arm's prototype IoT hardware. It has sensors, lights, thermometer etc. a screen and most importantly WiFi. (£200)
 
 - title: BlackRock
   slackID: C9MEJKM4N
   slackName: blackrock
-  description: Coming soon...
+  description: Save The World! Make something positive and helpful for humanity. (£200)
 
 - title: Craneware
   slackID: C9LNKEX6H
   slackName: craneware
-  description: Coming soon...
+  description: Build a digital version of a children's playground game. (£500)
 
 - title: GitHub
   slackID: C9LG496FM
   slackName: github
-  description: Coming soon...
+  description: Draw an Octocat and tweet with "#HackTheBurgh". Win an Octocat statue!
 
 - title: JP Morgan
   slackID: C9MLJ61JB
   slackName: jpmorgan
-  description: Coming soon...
+  description: Make a fake news detector for social media. (£200)
 
 - title: Morgan Stanley
   slackID: C9LNKCZCM
   slackName: morganstanley
-  description: Coming soon...
+  description: Make a bot to play multiplayer Doom. (£500)
 
 - title: SkyScanner
   slackID: C9LG43KUK
   slackName: skyscanner
-  description: Coming soon...
+  description: Best use of Skyscanner APIs. (£100 in air vouchers for each participant)
