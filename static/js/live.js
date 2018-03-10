@@ -13,7 +13,7 @@ function checkMouseMove() {
     //     timer = setTimeout(function() {
     //         $('nav').fadeOut()
     //     }, 3000)
-    }
+    // }
 }
 
 var deadline;
