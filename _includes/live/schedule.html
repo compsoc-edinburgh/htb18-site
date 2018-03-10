@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="container">
+        <div class="timeline">
+            <div class="center-align">
+                <h5>Here's what's happening.</h5>
+            </div>
+
+			{% for event in site.data.schedule %}
+	            <div data-time="{{ event.time }}" class="timeline-event">
+	                <div class="card timeline-content">
+	                    <div class="card-content">
+	                        <span class="card-title grey-text text-darken-4">
+	                            {{ event.title }}
+	                            <span class="right">{{ event.subtitle }}</span>
+	                        </span>
+	                        <p>{{ event.content }}</p>
+	                    </div>
+	                </div>
+
+	                <div class="timeline-badge white-text {% cycle 'red', 'purple', 'orange' %}">
+	                	<i class="fa fa-{{ event.icon }}" aria-hidden="true"></i>
+                	</div>
+	            </div>
+			{% endfor %}
+
+        </div>
+    </div>  
+</div>
