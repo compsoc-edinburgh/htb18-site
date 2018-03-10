@@ -49,12 +49,12 @@
   time: 0
   content: Possibly the most popular microframework in the world and another hackathon essential for Python lovers!
 
-# Alex's Deep Learning Talk
-- title: Deep Learning Workshop
+# Alex's Machine Learning Talk
+- title: Machine Learning Workshop
   subtitle: Saturday 16:30-17:00
   icon: microphone
   time: 0
-  content: "Get to know the basics of Deep Learning in 30 minutes."
+  content: "Get to know the basics of Machine Learning in 30 minutes."
 
 # Craneware Talk
 - title: "Test Driven Design (TDD) Workshop"
