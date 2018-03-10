@@ -29,39 +29,39 @@
   content: "Come to the helpdesk area to find all the other folks looking for a team!"
 
 # Viktorija Github Talk
-- title: Git Workshop
+- title: Git
   subtitle: Saturday 13:30-14:30
   icon: microphone
   time: 0
-  content: "Location TBC. Learn the basics of a hackathon essential."
+  content: "Workshop. Location TBC. Learn the basics of a hackathon essential."
 
 # Skysanner Talk
-- title: Skyscanner API Workshop
+- title: Skyscanner API
   subtitle: Saturday 14:30-15:00
   icon: microphone
   time: 0
-  content: "Learn how to use the Skyscanner APIs to build the best travel hack."
+  content: "Workshop. Learn how to use the Skyscanner APIs to build the best travel hack."
 
 # Greg's talk
-- title: Python and Flask Workshop
+- title: Python and Flask
   subtitle: Saturday 15:00-16:30
   icon: microphone
   time: 0
-  content: Possibly the most popular microframework in the world and another hackathon essential for Python lovers!
+  content: Workshop. Possibly the most popular microframework in the world and another hackathon essential for Python lovers!
 
 # Alex's Deep Learning Talk
-- title: Deep Learning Workshop
+- title: Deep Learning
   subtitle: Saturday 16:30-17:00
   icon: microphone
   time: 0
-  content: "Get to know the basics of Deep Learning in 30 minutes."
+  content: "Workshop. Get to know the basics of Deep Learning in 30 minutes."
 
 # Craneware Talk
-- title: "Test Driven Design (TDD) Workshop"
+- title: "Test Driven Design"
   subtitle: Saturday 17:00-18:00
   icon: microphone
   time: 0
-  content: "Hosted by Craneware."
+  content: "Workshop. Hosted by Craneware."
 
 - title: Dinner
   subtitle: Saturday 19:00
@@ -82,11 +82,11 @@
   content: The rules are simple — we give you a random powerpoint presentation to present in two minutes. The best improv wins.
 
 # GitHub Talk
-- title: Sleeping area opens
+- title: Sleep
   subtitle: Saturday 23:00—09:00
   icon: code
   time: 0
-  content: Ask our volunteers in red shirts to show you de way.
+  content: Ask our volunteers in red shirts to show you de way to the sleeping areas.
   
 - title: Midnight Pizza
   subtitle: Sunday 00:00
@@ -106,7 +106,7 @@
   time: 0
   content: IF YOU HAVE A DIETARY REQUIREMENT (GF, VEGAN), PLEASE GO FIRST. Catered from a van outside the building.   
 
-- title: Project submission
+- title: Hack submission
   subtitle: Sunday 11:00-12:00
   icon: paper-plane
   time: 0
@@ -124,7 +124,7 @@
   time: 1489928400000
   content: Served outside the Forum
 
-- title: Presentation time
+- title: Presentations
   subtitle: Sunday 13:00—14:00
   icon: play
   time: 1489932000000
