@@ -59,7 +59,7 @@ function announceText(t, noNotif) {
     obj.fadeOut();
     if (t !== "") {
         setTimeout(() => {
-            obj.text(t);
+            obj.html(t);
             obj.fadeIn();
 
             if (!noNotif) {
