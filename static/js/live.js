@@ -148,7 +148,7 @@ $(document).ready(function(){
     var clock = $('#countdown');
     // updateDeadline('March 18 2017 11:00:00 GMT+0000', "until opening ceremony!");
     // updateDeadline('March 18 2017 12:00:00 GMT+0000', "until hacking begins!");
-    updateDeadline('March 11 2018 09:00:00 GMT+0000', "until breakfast!");
+    updateDeadline('March 11 2018 08:00:00 GMT+0000', "until breakfast!");
 
     updateClock(clock); // run function once at first to avoid delay
     var timeinterval = setInterval(updateClock,1000, clock)
